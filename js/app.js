@@ -1,12 +1,12 @@
 'use strict';
 let score = 0;
 let userName = prompt('What is your name ?');
-console.log(userName);
+//console.log(userName);
 alert('Thank u for visiting my website, i hope u will have much fun' + " " + userName);
 
 let likeSports = prompt('did u think i like sport or not ?').toUpperCase();
 
-console.log(likeSports);
+//console.log(likeSports);
 
 if(likeSports==='YES'|| likeSports === 'Y' || likeSports === 'y'){
     alert('no u are wrong :P ');
@@ -23,7 +23,7 @@ else{
 
 let likeFastFood =prompt('did u think i like FastFood or not ?').toUpperCase();
 
-console.log(likeFastFood);
+//console.log(likeFastFood);
 
 
 if(likeFastFood==='YES' || likeFastFood === 'Y' || likeFastFood === 'y'){
@@ -40,7 +40,7 @@ else{
 
 let likeClassicClothes = prompt('did u think i like ClassicClothes or not ?').toUpperCase();
 
-console.log(likeClassicClothes);
+//console.log(likeClassicClothes);
 
 if(likeClassicClothes==='YES' || likeClassicClothes === 'Y' || likeClassicClothes === 'y'){
     alert('no u are wrong :( ');
@@ -56,7 +56,7 @@ else{
 
 let likeFruits = prompt('did u think i like Fruits or not ?').toUpperCase();
 
-console.log(likeFruits);
+//console.log(likeFruits);
 
 if(likeFruits==='YES' || likeFruits === 'Y' || likeFruits === 'y'){
     alert('yes u are right <3 ');
@@ -72,7 +72,7 @@ else{
 
 let stayingAtHome = prompt('did u think i like staying at home or not ?').toUpperCase();
 
-console.log(stayingAtHome);
+//console.log(stayingAtHome);
 
 if(stayingAtHome==='YES' || stayingAtHome === 'Y' || stayingAtHome === 'y'){
     alert(' no u are wrong :() ');
