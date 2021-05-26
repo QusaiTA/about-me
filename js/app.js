@@ -23,7 +23,7 @@ else{
 }
 q1();
 
-
+function q2(){
 let likeFastFood =prompt('did u think i like FastFood or not ?').toUpperCase();
 
 //console.log(likeFastFood);
@@ -40,6 +40,8 @@ if(likeFastFood==='YES' || likeFastFood === 'Y' || likeFastFood === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q2();
 
 let likeClassicClothes = prompt('did u think i like ClassicClothes or not ?').toUpperCase();
 
