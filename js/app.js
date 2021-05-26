@@ -151,7 +151,7 @@ q6();
 
 
 
-
+function q7(){
 let favoriteMeal = ['mansaf', 'pizza', 'burger', 'zinger'];
 let flag = false;
 
@@ -181,6 +181,8 @@ for ( let i = 0 ; i < 5 ; i++){
        alert('Wrong');
    }
  }
+}
+q7();
 
 
 
