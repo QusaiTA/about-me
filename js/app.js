@@ -43,6 +43,7 @@ else{
 }
 q2();
 
+function q3(){
 let likeClassicClothes = prompt('did u think i like ClassicClothes or not ?').toUpperCase();
 
 //console.log(likeClassicClothes);
@@ -58,7 +59,10 @@ if(likeClassicClothes==='YES' || likeClassicClothes === 'Y' || likeClassicClothe
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q3();
 
+function q4(){
 let likeFruits = prompt('did u think i like Fruits or not ?').toUpperCase();
 
 //console.log(likeFruits);
@@ -74,6 +78,8 @@ if(likeFruits==='YES' || likeFruits === 'Y' || likeFruits === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q4();
 
 let stayingAtHome = prompt('did u think i like staying at home or not ?').toUpperCase();
 
