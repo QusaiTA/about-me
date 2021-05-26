@@ -113,7 +113,7 @@ q5();
 // let correctNumber = prompt('Guess the number of my favorite Movie from 1-10 ?');
 // correctNumber = Number(correctNumber);
 // console.log(correctNumber);
-
+function q6(){
 for(  let i=1 ; i<5; i++){
 
     let correctNumber = prompt('Guess the number of my favorite Movie from 1-10 ?');
@@ -144,6 +144,8 @@ for(  let i=1 ; i<5; i++){
       alert('u are miss all your chances, the correct answer is 8 :(');
       break;
 }}
+}
+q6();
 
 
 
