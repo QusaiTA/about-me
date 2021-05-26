@@ -4,7 +4,7 @@ let userName = prompt('What is your name ?');
 //console.log(userName);
 alert('Thank u for visiting my website, i hope u will have much fun' + " " + userName);
 
-
+function q1(){
 let likeSports = prompt('did u think i like sport or not ?').toUpperCase();
 
 //console.log(likeSports);
@@ -20,9 +20,10 @@ if(likeSports==='YES'|| likeSports === 'Y' || likeSports === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q1();
 
-
-
+function q2(){
 let likeFastFood =prompt('did u think i like FastFood or not ?').toUpperCase();
 
 //console.log(likeFastFood);
@@ -39,7 +40,10 @@ if(likeFastFood==='YES' || likeFastFood === 'Y' || likeFastFood === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q2();
 
+function q3(){
 let likeClassicClothes = prompt('did u think i like ClassicClothes or not ?').toUpperCase();
 
 //console.log(likeClassicClothes);
@@ -55,7 +59,10 @@ if(likeClassicClothes==='YES' || likeClassicClothes === 'Y' || likeClassicClothe
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q3();
 
+function q4(){
 let likeFruits = prompt('did u think i like Fruits or not ?').toUpperCase();
 
 //console.log(likeFruits);
@@ -71,6 +78,10 @@ if(likeFruits==='YES' || likeFruits === 'Y' || likeFruits === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q4();
+
+function q5(){
 
 let stayingAtHome = prompt('did u think i like staying at home or not ?').toUpperCase();
 
@@ -88,6 +99,9 @@ if(stayingAtHome==='YES' || stayingAtHome === 'Y' || stayingAtHome === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q5();
+
 
 
 
@@ -99,7 +113,7 @@ else{
 // let correctNumber = prompt('Guess the number of my favorite Movie from 1-10 ?');
 // correctNumber = Number(correctNumber);
 // console.log(correctNumber);
-
+function q6(){
 for(  let i=1 ; i<5; i++){
 
     let correctNumber = prompt('Guess the number of my favorite Movie from 1-10 ?');
@@ -130,12 +144,14 @@ for(  let i=1 ; i<5; i++){
       alert('u are miss all your chances, the correct answer is 8 :(');
       break;
 }}
+}
+q6();
 
 
 
 
 
-
+function q7(){
 let favoriteMeal = ['mansaf', 'pizza', 'burger', 'zinger'];
 let flag = false;
 
@@ -165,6 +181,8 @@ for ( let i = 0 ; i < 5 ; i++){
        alert('Wrong');
    }
  }
+}
+q7();
 
 
 
