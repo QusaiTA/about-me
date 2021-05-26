@@ -4,7 +4,7 @@ let userName = prompt('What is your name ?');
 //console.log(userName);
 alert('Thank u for visiting my website, i hope u will have much fun' + " " + userName);
 
-
+function q1(){
 let likeSports = prompt('did u think i like sport or not ?').toUpperCase();
 
 //console.log(likeSports);
@@ -20,7 +20,8 @@ if(likeSports==='YES'|| likeSports === 'Y' || likeSports === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
-
+}
+q1();
 
 
 let likeFastFood =prompt('did u think i like FastFood or not ?').toUpperCase();
