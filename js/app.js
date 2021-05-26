@@ -81,6 +81,8 @@ else{
 }
 q4();
 
+function q5(){
+
 let stayingAtHome = prompt('did u think i like staying at home or not ?').toUpperCase();
 
 //console.log(stayingAtHome);
@@ -97,6 +99,9 @@ if(stayingAtHome==='YES' || stayingAtHome === 'Y' || stayingAtHome === 'y'){
 else{
     alert('U need to answer with YES/NO/N/n/Y/y ')
 }
+}
+q5();
+
 
 
 
