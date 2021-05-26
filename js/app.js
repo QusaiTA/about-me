@@ -94,11 +94,15 @@ else{
 
 
 
-let correctNumber = prompt('Guess the number of my favorite Movie from 1-10 ?');
-correctNumber = Number(correctNumber);
-console.log(correctNumber);
+// let correctNumber = prompt('Guess the number of my favorite Movie from 1-10 ?');
+// correctNumber = Number(correctNumber);
+// console.log(correctNumber);
 
 for(  let i=1 ; i<5; i++){
+
+    let correctNumber = prompt('Guess the number of my favorite Movie from 1-10 ?');
+     correctNumber = Number(correctNumber);
+     console.log(correctNumber);
 
         if(correctNumber == 8){
         alert('Great Thats it !')
@@ -108,55 +112,67 @@ for(  let i=1 ; i<5; i++){
     }
 
     else if( correctNumber >= 5 && correctNumber < 8  ){
-        correctNumber = prompt('Too close, Guess again');
+       alert('Too close, Guess again');
     }
     else if( correctNumber >=1 && correctNumber <5 ){
-        correctNumber = prompt('too Low, Guess again');
+        alert('too Low, Guess again');
         
     }
     else if( correctNumber >= 9 && correctNumber <= 10){
 
-        correctNumber=prompt('too high, Guess again');
+        alert('too high, Guess again');
     }
 
-    if(i==4){
+    if(i===4){
 
       alert('u are miss all your chances, the correct answer is 8 :(');
       break;
 }}
 
-let correctAnswer = prompt('Guess My favorite Meal !').toLowerCase();
-console.log(correctAnswer);
+
+
+
+
+
 let favoriteMeal = ['mansaf', 'pizza', 'burger', 'zinger'];
 let flag = false;
 
 for ( let i = 0 ; i < 5 ; i++){
 
+    let correctAnswer = prompt('Guess My favorite Meal !').toLowerCase();
+    console.log(correctAnswer);
+
     for(let j = 0 ; j <favoriteMeal.length ; j++){
         if(favoriteMeal[j] == correctAnswer ){
-            flag = true;
+            
             alert('Great, thats it !');
+            alert('here is the correct answers :' + favoriteMeal)
+            flag = true;
             score++;
-            break;
+            
          }}
-    if(flag){
+
+    if(flag === true){
+        //alert('here is the correct answers :' + favoriteMeal);
         break;
     }
-    else {
-        correctAnswer = prompt('Guess again');
-        }
-
+   if(i===4){
+       alert('here is the correct answers :' + favoriteMeal)
+   }
+   else if(i < 5) {
+       alert('Wrong');
+   }
  }
 
 
 
-let str = " ";
-for(let i=0 ; i < favoriteMeal.length ; i++){
-    str = str + " , " + favoriteMeal[i];
-}
+// let str = " ";
+// for(let i=0 ; i < favoriteMeal.length ; i++){
+//     str = str + " , " + favoriteMeal[i];
+// }
 
-alert('that is my all favorite meal : ' + str);
+// alert('that is my all favorite meal : ' + str);
 
-alert('your score is :' + score);
+alert('your score is :' + score +'/7');
 
 alert('Thanks again for visiting i hope u enjoyed so much with the guessing game, u are most welcomed to visit again ' + " " + userName);
